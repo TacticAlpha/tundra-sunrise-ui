@@ -1,3 +1,4 @@
+@import "colors";
 
 // UI Variables
 // -------------------
@@ -12,29 +13,29 @@
 
 
 // Text Colors
-@text-color:           hsl(0,0%,66%);
-@text-color-subtle:    hsl(0,0%,50%);
+@text-color:           @alice-blue;
+@text-color-subtle:    desaturate(darken(@text-color, 37.5%), 50%);
 @text-color-highlight: hsl(0,0%,94%);
 @text-color-selected:  hsl(0,0%,100%);
 
-@text-color-info:    hsl(219,  79%, 66%);
-@text-color-success: hsl(140,  44%, 62%);
-@text-color-warning: hsl( 36,  60%, 72%);
-@text-color-error:   hsl(  9, 100%, 64%);
+@text-color-info:    @jordy-blue;
+@text-color-success: @spring-green;
+@text-color-warning: @school-bus-yellow;
+@text-color-error:   @red-pantone;
 
 // Background colors
-@background-color-info:    hsl(208, 100%, 50%);
-@background-color-success: hsl(160,  70%, 36%);
-@background-color-warning: hsl(32,   60%, 50%);
-@background-color-error:   hsl(0,    70%, 50%);
+@background-color-info:    lighten(@saint-patricks-blue, 12.5%);
+@background-color-success: darken(@spring-green, 18.75%);
+@background-color-warning: darken(@school-bus-yellow, 18.75%);
+@background-color-error:   darken(@red-pantone, 5%);
 
 @background-color-highlight: lighten(@base-background-color, 5%);
-@background-color-selected:  lighten(@base-background-color, 10%);
+@background-color-selected:  lighten(@base-background-color, 12.5%);
 @app-background-color:       darken(@base-background-color, 5%);
 
 // Base colors
-@base-background-color: hsl(222,6%,22%);
-@base-border-color:     darken(@base-background-color, 8%);
+@base-background-color: @rich-black-fogra29;
+@base-border-color:     @very-light-azure;
 
 // Component colors
 @pane-item-background-color: @base-background-color;
@@ -70,11 +71,11 @@
 @tree-view-border-color:     @base-border-color;
 
 // Site colors
-@ui-site-color-1: hsl(208, 100%, 50%); // blue
-@ui-site-color-2: hsl(160,  70%, 42%); // green
-@ui-site-color-3: hsl(32,   60%, 50%); // orange
-@ui-site-color-4: #D831B0;             // pink
-@ui-site-color-5: #EBDD5B;             // yellow
+@ui-site-color-1: @jordy-blue;          // blue
+@ui-site-color-2: @spring-green;        // green
+@ui-site-color-3: @mango-tango;         // orange
+@ui-site-color-4: @princess-perfume;    // pink
+@ui-site-color-5: @school-bus-yellow;   // yellow
 
 // Sizes
 @font-size: 12px;

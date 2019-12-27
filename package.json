@@ -1,13 +1,15 @@
 {
-  "name": "ui-theme-template",
+  "name": "tundra-sunrise-ui",
   "theme": "ui",
   "version": "0.0.0",
-  "description": "A short description of your UI theme",
+  "description": "A companion UI theme for tundra-sunrise-syntax",
   "keywords": [
+    "tundra",
+    "sunrise",
     "ui",
     "theme"
   ],
-  "repository": "https://github.com/atom-community/ui-theme-template",
+  "repository": "https://github.com/malchata/tundra-sunrise-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
