@@ -1,7 +1,7 @@
 {
   "name": "tundra-sunrise-ui",
   "theme": "ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A companion UI theme for tundra-sunrise-syntax",
   "keywords": [
     "tundra",
