@@ -1,7 +1,7 @@
 {
   "name": "tundra-sunrise-ui",
   "theme": "ui",
-  "version": "0.2.0",
+  "version": "0.0.0",
   "description": "A companion UI theme for tundra-sunrise-syntax",
   "keywords": [
     "tundra",
@@ -9,7 +9,7 @@
     "ui",
     "theme"
   ],
-  "repository": "git+https://github.com/malchata/tundra-sunrise-ui.git",
+  "repository": "git+ssh://git@github.com:malchata/tundra-sunrise-ui.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
