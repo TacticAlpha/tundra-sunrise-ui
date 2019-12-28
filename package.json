@@ -9,7 +9,7 @@
     "ui",
     "theme"
   ],
-  "repository": "git+ssh://git@github.com:malchata/tundra-sunrise-ui.git",
+  "repository": "https://github.com/malchata/tundra-sunrise-ui",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
